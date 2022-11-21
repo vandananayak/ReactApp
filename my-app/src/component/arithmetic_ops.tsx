@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 
-let Greet = ((props: any) => {
+let Arithmetic_ops = ((props: any) => {
     const [count, setCount] = useState(0);
     // props.name='Pranav' this is wrong can't change the readonly props. they are immutable
     //multiple children in one div container
@@ -24,4 +24,4 @@ let Greet = ((props: any) => {
         </div>
     )
 })
-export default Greet;
+export default Arithmetic_ops;

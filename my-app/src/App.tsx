@@ -1,13 +1,13 @@
 import React from 'react';
-import Greet from "./component/greet";
+import Arithmetic_ops from "./component/arithmetic_ops";
 import './App.css';
 
 function App() {
     return (
         <div className="App">
-            <Greet name={'Vandana'}>
+            <Arithmetic_ops name={'Vandana'}>
                 <p>Welcome to React app</p>
-            </Greet>
+            </Arithmetic_ops>
         </div>
     );
 }
