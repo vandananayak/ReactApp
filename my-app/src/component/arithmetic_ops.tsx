@@ -14,10 +14,14 @@ let Arithmetic_ops = ((props: any) => {
             setCount(count - 1);
         }
     })
+
+    //destructuring props
+    const {name, children} = props;
     return (
+
         <div>
-            <h1>Hello, {props.name}</h1>
-            {props.children}
+            <h1>Hello, {name}</h1>
+            {children}
             <button onClick={increment}>Increment</button>
             <button onClick={decrement}>Decrement</button>
             <p>{count}</p>
