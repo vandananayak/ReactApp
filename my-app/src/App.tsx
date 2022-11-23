@@ -6,7 +6,7 @@ function App() {
     return (
         <div className="App">
             <Arithmetic_ops name={'Vandana'}>
-                <p>Welcome to React app</p>
+                <p>Arithmetic operations</p>
             </Arithmetic_ops>
         </div>
     );
