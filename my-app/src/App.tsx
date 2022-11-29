@@ -1,13 +1,12 @@
 import React from 'react';
 import Arithmetic_ops from "./component/arithmetic_ops";
 import './App.css';
+import DisplayName from "./component/displayName";
 
 function App() {
     return (
         <div className="App">
-            <Arithmetic_ops name={'Vandana'}>
-                <p>Arithmetic operations</p>
-            </Arithmetic_ops>
+            <DisplayName />
         </div>
     );
 }
